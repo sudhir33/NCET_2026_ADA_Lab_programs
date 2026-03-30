@@ -1,35 +1,3 @@
-/*
-
-                P
-1 4 3 2 5 7 9 8 6
-0 1 2 3 4 5 6 7 8
-        j       
-    
-    
-
-
-
-arr[i]<arr[P]   2< 5  swap i and j valuesi++ j++
-
-i++
-
-after loop swap j and p
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #include<stdio.h>
 int partition(int *arr,int L,int H)
 {
