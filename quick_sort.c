@@ -79,7 +79,16 @@ int main()
 	return 0;
 }
 
+/*
+Sample Input1:
+8
+8 1 7 2 6 3 4 5
 
+Sample Output1:
+1 2 3 4 5 6 7 8
+
+
+*/
 
 
 
