@@ -62,6 +62,7 @@ int main()
 	return 0;
 }
 /*
+Sample Input:
 4 7
 1 2 3
 2 1 8
@@ -71,6 +72,7 @@ int main()
 1 4 7
 4 1 2
 
+Sample output
 0 3 5 6
 5 0 2 3
 3 6 0 1
