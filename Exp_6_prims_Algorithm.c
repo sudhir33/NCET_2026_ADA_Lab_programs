@@ -28,9 +28,6 @@ int find_min_2(int x,int y)
 	}
 	return x;
 }
-
-
-
 void insert_heap(int x,int y,int w)
 {
 	NODE *NN;
@@ -95,8 +92,6 @@ NODE * delete_heap()
 	size--;
 	return root;
 }
-
-
 int prims(int **adjmat,int v,int sv,int **res,int *vis)
 {
 	vis[sv]=1;
@@ -173,15 +168,30 @@ int main()
 		}
 		printf("\n");
 	}
-	
-	
-	
-	
-		
 	return 0;
 }
 
-
+/*
+Sample Input:
+6 9
+0 1 1
+0 2 4
+1 2 2
+1 3 10
+2 3 3
+2 4 12
+3 4 2
+3 5 4
+4 5 1
+0
+Sample Output:
+9
+0 1 0 0 0 0
+0 0 2 0 0 0
+0 0 0 3 0 0
+0 0 0 0 2 0
+0 0 0 0 0 1
+0 0 0 0 0 0
 
 
 
